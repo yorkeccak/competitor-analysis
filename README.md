@@ -139,14 +139,15 @@ The deep research API is configured in [route.ts](app/api/competitor-analysis/ro
 
 ## Deployment
 
-### Deploy on Vercel
+### Deploy on Railway
 
 1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com)
-3. Add your `VALYU_API_KEY` environment variable
-4. Deploy!
+2. Create a new project on [Railway](https://railway.app)
+3. Click "Deploy from GitHub repo" and select your repository
+4. Add your `VALYU_API_KEY` environment variable in the Variables tab
+5. Railway will auto-detect Next.js and deploy!
 
-**Note**: The free Vercel plan works perfectly! The app uses client-side polling, so there are no server timeout issues.
+**Note**: Railway's free tier works great for this app. The client-side polling architecture means no server timeout issues.
 
 ## Learn More
 
@@ -161,7 +162,7 @@ The deep research API is configured in [route.ts](app/api/competitor-analysis/ro
 - **Styling**: Tailwind CSS 4 with Typography plugin
 - **Markdown Rendering**: react-markdown with GitHub Flavored Markdown
 - **AI Research**: Valyu Deep Research API
-- **Deployment**: Vercel
+- **Deployment**: Railway
 
 ## Key Dependencies
 
